@@ -515,3 +515,53 @@ header {
     color: white;
     background-color: rgba(64, 58, 58, 0.78);
 }
+
+/*Login*/
+
+.main_login {
+    align-items: center;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.login h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    border-bottom: 3px solid black;
+}
+
+.login {
+    width: 20%;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.87);
+    border-radius: 30px;
+    padding: 30px 0;
+    box-shadow: 3px 3px 4px gray;
+}
+
+.login .usuario input, .login .password input {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 5px 0;
+    border-radius: 10px;
+    border: none;
+    background-color:  rgba(255, 255, 255, 0.87);
+}
+
+.login .btn_login input{
+    font-size: 1.5em;
+    padding: 5px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgba(150, 133, 133, 0.726);
+    border: none;
+}
+
+.login .btn_login input:hover {
+    color: white;
+    background-color: rgba(64, 58, 58, 0.78);
+}
