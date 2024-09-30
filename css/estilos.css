@@ -327,11 +327,6 @@ header {
 
 /*Cliente*/
 
-.section_clientes {
-    width: 90%;
-    margin: auto;
-}
-
 .cliente_titulo {
     text-align: center;
 }
@@ -351,7 +346,7 @@ header {
 }
 
 .lista_cliente ul li {
-    margin: 50px 30px;
+   margin: 40px 10px;
 }
 
 /*Nosotros*/
