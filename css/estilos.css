@@ -434,3 +434,84 @@ header {
     width: 100%;
     height: 700px;
 }
+
+/*Cursos Grilla*/
+
+.card_cursos figure img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card_cursos figure figcaption {
+    background-color: rgba(69, 69, 212, 0.926);
+    position: absolute;
+    top: 75%;
+    margin-left: 220px;
+    padding: 0 5px;
+    font-size: 1.3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-weight: 700;
+}
+
+.cursos_main {
+    text-align: center;
+    margin: 20px;
+}
+
+.cursos_main h2 {
+    font-size: 2.3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px auto;
+}
+
+.table_cursos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card_cursos figure {
+    position: relative;
+}
+
+.card_cursos {
+    width: 20%;
+    height: 550px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.descripcion_curso {
+    margin: auto 10px;
+}
+
+.descripcion_curso h2 {
+    font-size: 1.3em;
+    margin: 10px auto;
+}
+
+.descripcion_curso p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.descripcion_curso a {
+    font-size: 1.4em;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:  rgba(150, 133, 133, 0.726);
+}
+
+.descripcion_curso a:hover {
+    color: white;
+    background-color: rgba(64, 58, 58, 0.78);
+}
