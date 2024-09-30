@@ -21,7 +21,7 @@
         </div>
         <form action="#" method="post" class="form_suscribite">
             <input type="mail" id="mail" placeholder="Ingrese Mail" class="casilla_mail">
-            <input type="button" value="Suscribirse" class="btn_suscribite">
+            <input type="submit" value="Suscribirse" class="btn_suscribite">
         </form>
     </div>
 
