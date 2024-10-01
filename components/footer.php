@@ -4,7 +4,7 @@
 
     $menuFooter['Nuestra historia'] = '../page/acercade.php';
     $menuFooter['Curso'] = '../page/cursos.php';
-    $menuFooter['Contactenos'] = '../page/contacto.php';
+    $menuFooter['Inscripcion'] = '../page/inscripcion.php';
 
     $menuRedes['Instagram'] = 'https://www.instagram.com/';
     $menuRedes['Facebook'] = 'https://www.facebook.com/?locale=es_LA';
@@ -19,7 +19,7 @@
             <h2>Suscrbite a nuestro Newsletter</h2>
             <p>Regístrate con tu dirección de correo electrónico para recibir noticias y actualizaciones.</p>
         </div>
-        <form action="#" method="post" class="form_suscribite">
+        <form action="programas.php" method="post" class="form_suscribite">
             <input type="mail" id="mail" placeholder="Ingrese Mail" class="casilla_mail">
             <input type="submit" value="Suscribirse" class="btn_suscribite">
         </form>

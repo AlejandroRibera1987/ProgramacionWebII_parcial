@@ -6,7 +6,7 @@
     $menu['Acerca de'] = '../page/acercade.php';
     //$menu['Programas'] = '../page/programas.php';
     $menu['Cursos'] = '../page/cursos.php';
-    $menu['Contacto'] = '../page/contacto.php';
+    $menu['Inscripcion'] = '../page/inscripcion.php';
 
     $menuLogin['Iniciar Sesión'] = '../page/login.php';
     $menuLogin['Unirme ahora'] = '../page/registro.php';
