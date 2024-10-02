@@ -700,6 +700,7 @@ header {
 
 .datos_form {
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .datos_form table caption {
@@ -716,7 +717,7 @@ header {
 .datos_form table td, .datos_form table th {
     border: 1px solid black;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 .datos_form table th {
@@ -724,8 +725,26 @@ header {
 }
 
 .datos_form figure img {
-    width: 100px;
+    width: 150px;
+    height: 50px;
+}
+
+.datos_form .btn_confirmacion p {
+    margin: 20px;
+}
+
+.datos_form .btn_confirmacion a {
+    background-color: rgba(150, 133, 133, 0.726);
     padding: 10px;
+    margin: 0 10px;
+    font-size: 1.1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    border-radius: 10px;
+}
+
+.datos_form .btn_confirmacion a:hover {
+    background-color: rgba(64, 58, 58, 0.78);
 }
 
 /*login Error*/

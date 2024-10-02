@@ -9,7 +9,7 @@ $formaPagos = $_POST['forma_pago'];
 $comentarios = $_POST['comentarios'];
 
 $temporal = $_FILES ['img_dni']['tmp_name'];
-$nombreImg = "imagen_" . $dni .".jpg";
+$nombreImg = $apellido . "_" . $dni .".jpg";
 
 move_uploaded_file($temporal, "../img_formulario/$nombreImg");
 
@@ -46,12 +46,17 @@ include_once ('../components/header.php');
                         <td><?php echo $comentarios ?></td>
                         <td>
                             <figure>
-                                <img src="../img_formulario/imagen_<?php echo $dni ?>.jpg" alt="img enviado por formulario">
+                                <img src="../img_formulario/<?php echo $apellido ?>_<?php echo $dni ?>.jpg" alt="img enviada por <?php echo $nombre?>">
                             </figure>
                         </td>
                     </tr>
                 </tbody>
             </table>
+            <div class="btn_confirmacion">
+                 <p>Si los datos son correctos precione Aceptar de lo contrario Cancelar</p>
+                <a href="inicio.php">Aceptar</a>
+                <a href="inscripcion.php">Cancelar</a>
+            </div>
         </div>
     </main>
 
