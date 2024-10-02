@@ -4,28 +4,28 @@
     
     <main>
         <div class="main_inscripcion">
-            <form action="programas.php" action="post" anctype="multipart/form-data">
+            <form action="programas.php" method="post" enctype="multipart/form-data">
                 <div class="titulo_form">
                     <h2>Inscribite</h2>
                 </div>
                 <div class="fila_form">
                     <div class="nombre">
                         <label for="nombre">Nombre: <span>*</span></label>
-                        <input type="text" id="nombre" required>
+                        <input type="text" id="nombre" name="nombre" required>
                     </div>
                     <div class="apellido">
                         <label for="apellido">Apellido: <span>*</span></label>
-                        <input type="text" id="apellido" required>
+                        <input type="text" id="apellido" name="apellido" required>
                     </div>
                 </div>
                 <div class="email">
                     <label for="email">Email: <span>*</span></label>
-                    <input type="email" id="email" required>
+                    <input type="email" id="email" name="email" required>
                 </div>
                 <div class="fila_form">                
                     <div class="telefono">
                         <label for="telefono">Telefono</label>
-                        <input type="number" id="telefono">
+                        <input type="number" id="telefono" name="telefono">
                     </div>
                     <div class="cursos_form">
                         <label for="cursos">Cursos <span>*</span></label>
@@ -38,24 +38,30 @@
                         </select>
                     </div>
                 </div>
-                <div class="img_dni">
-                    <label for="img_dni">Foto de DNI</label>
-                    <input type="file" accept=".jpg,.jpeg,.png,.pdf">
+                <div class="fila_form">
+                    <div class="dni">
+                        <label for="dni">DNI</label>
+                        <input type="number" id="dni" name="dni" require>
+                    </div>
+                    <div class="img_dni">
+                        <label for="img_dni">Foto de DNI</label>
+                        <input type="file" accept="image/*" id="img_dni" name="img_dni">
+                    </div>
                 </div>
                 <div class="forma_pago">
                     <p>Forma de Pago</p>
                     <div class="formas">
                         <div class="efectivo">
                             <label for="efectivo">Efectivo</label>
-                            <input type="radio" id="efectivo" name="efectivo">
+                            <input type="radio" id="efectivo" name="forma_pago" value="efectivo">
                         </div>
                         <div class="tarjeta">
                             <label for="tarjeta">Tarjeta</label>
-                            <input type="radio" id="tarjeta" name="tarjeta">
+                            <input type="radio" id="tarjeta" name="forma_pago" value="tarjeta">
                         </div>
                         <div class="mercadopago">
                             <label for="mercadopago">Mercado Pago</label>
-                            <input type="radio" id="mercadopago" name="mercadopago">
+                            <input type="radio" id="mercadopago" name="forma_pago" value="mercadopago">
                         </div>
                     </div>
                 </div>

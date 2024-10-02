@@ -612,7 +612,7 @@ header {
     gap: 30px;
 }
 
-.nombre, .apellido, .telefono, .cursos_form, .email {
+.nombre, .apellido, .telefono, .cursos_form, .email, .dni {
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -629,10 +629,7 @@ header {
 }
 
 .img_dni {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+
     margin: 20px auto;
 }
 
@@ -667,7 +664,6 @@ header {
 }
 
 .comentarios textarea {
-    width: 80%;
     height: 100px;
     background-color: rgb(159, 158, 158);
     border: none;
@@ -696,4 +692,63 @@ header {
 
 .main_inscripcion .btn_inscripcion input:hover {
     background-color: rgba(64, 58, 58, 0.78);
+}
+
+/*Programas*/
+
+/*Datos Formularios Enviados*/
+
+.datos_form {
+    margin-bottom: 30px;
+}
+
+.datos_form table caption {
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px auto;
+}
+
+.datos_form table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.datos_form table td, .datos_form table th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+}
+
+.datos_form table th {
+    font-size: 1.4em;
+}
+
+.datos_form figure img {
+    width: 100px;
+    padding: 10px;
+}
+
+/*login Error*/
+
+#error {
+    margin: 20px;
+    font-size: 1.2em;
+    color: red;
+}
+
+.login_correcto {
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.login_correcto h2 {
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.login_correcto p {
+    font-size: 1.2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px;
 }
